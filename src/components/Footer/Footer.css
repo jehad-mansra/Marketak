@@ -1,0 +1,38 @@
+.footer-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #f3f5f6;
+  padding: 10px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.group-cards1,
+.group-cards2 {
+  display: flex;
+  gap: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.copy-right {
+  color: #303030;
+}
+
+@media screen and (max-width: 725px) {
+.footer-wrap {
+    flex-direction: column;
+    width: 100%;
+}
+
+}

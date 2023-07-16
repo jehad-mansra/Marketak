@@ -1,0 +1,78 @@
+.card-container{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    background-color: #F3F5F6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 0 10px#F3F5F6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-image img {
+    height: 90%;
+}
+
+.card-description {
+    height: 35%;
+    overflow-y: hidden;
+    font-size: 0.9rem;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price{
+    color: #9E3040;
+    font-size: 1.3rem;
+}
+
+.addtocardd-btn{
+    background-color: #9E3040;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.addtocard-btn:hover {
+    box-shadow: 0 0 10px #9E3040;
+}

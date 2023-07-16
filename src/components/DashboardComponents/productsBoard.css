@@ -1,0 +1,102 @@
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  gap: 30px;
+}
+
+.dash-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.dash-name {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.dash-rightside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.product-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.product-table td,
+.product-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #ddd;
+}
+
+.product-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(158, 48, 64, 1);
+  color: white;
+}
+
+.dashboard-leftside {
+  width: 25%;
+}
+
+.dashboard-leftside-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.dashboard-leftside-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 10px;
+}
+
+.dashboard-link {
+  border-left: 8px solid white;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dashboard-link:hover {
+  background-color: rgb(213, 213, 213);
+}
+
+.dashboard-link.active {
+  border-left: 8px solid #9e3040;
+}
+
+.dash-add-product{
+    padding:10px;
+    text-decoration: none;
+    color: white;
+    background-color: #9e3040;
+    display: flex;
+    align-items: center;
+}

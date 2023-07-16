@@ -1,0 +1,117 @@
+.CardDetails-container {
+  box-sizing: border-box;
+  padding:  3rem 5rem;
+  background-color: #ffffff;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  box-shadow: 0 0 20px#F3F5F6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.CardDetails-desc-image{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.CardDetails-image {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.CardDetails-image img {
+  height: 75%;
+}
+.CardDetails-description div {
+  color: rgb(120, 111, 111);
+  font-size: 1.2rem;
+}
+.CardDetails-price {
+  color: green;
+  font-size: xx-large;
+}
+.CardDetails-title {
+  color: #9e3040;
+  font-size: 3rem;
+}
+
+.card-price {
+  color: #9e3040;
+  font-size: 1.3rem;
+}
+
+.addtocard-btn {
+  background-color: #9e3040;
+  color: white;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  cursor: pointer;
+}
+
+.addtocard-btn:hover {
+  box-shadow: 0 0 10px #9e3040;
+}
+
+.CardDetails-price-btn{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  background-color: rgb(241, 241, 241);
+  box-sizing: border-box;
+  padding: 2rem;
+  justify-content: space-between;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.CardDetails-title-desc-image{
+  width: 70%;
+}
+
+.CardDetails-rating{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.CardDetails-rate{
+  display: flex;
+  align-items: center;
+}
+
+.CardDetails-category{
+  font-size: 1.1rem;
+}
+
+.CardDetails-title-2{
+  font-size: 1.4rem;
+}

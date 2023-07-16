@@ -1,0 +1,59 @@
+form {
+  border: 1px solid #e2e3e5;
+  border-radius: 8px;
+  padding: 3.2rem;
+  margin-bottom: 8rem;
+}
+
+form h5 {
+  font-size: 2rem;
+}
+
+form p {
+  font-size: 1.2rem;
+  color: #575f6e;
+  margin-bottom: 3.2rem;
+}
+
+form label {
+  font-size: 1.4rem;
+  display: block;
+}
+
+form input {
+  width: 100%;
+  height: 4.4rem;
+  border: none;
+  border-bottom: 1px solid #e2e4e5;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+}
+
+.add-product {
+  background-color: #9e3040;
+  color: white;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  padding: 20px 70px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  cursor: pointer;
+}
+
+.add-product:hover {
+  box-shadow: 0 0 10px #9e3040;
+}
+
+.add-product-select {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px 0;
+}

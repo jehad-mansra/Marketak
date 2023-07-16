@@ -1,0 +1,217 @@
+header {
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.header-leftside{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-leftside img {
+    height: 30%;
+}
+
+.header-middleside{
+    display: flex;
+    gap: 5px;
+}
+
+.header-middleside a {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-middleside a:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.link {
+    padding: 5px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.link-active{ 
+    background-color: rgb(237, 236, 236);
+}
+
+.header-rightside{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search-container:hover,
+.cart-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 1px rgb(175, 175, 175);
+}
+
+.search-container,
+.cart-container{
+    padding: 10px;
+    box-shadow: 0 0 5px 1px rgb(175, 175, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.signin-btn{
+    padding: 10px 20px;
+    background-color: #9E3040;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.signin-btn:hover {
+    box-shadow: 0 0 7px 1px #9E3040;
+}
+
+.theme-toggler {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
+    padding: 7px ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 2px rgb(254, 106, 106);
+    display: grid;
+    place-items: center;
+    color: rgb(254, 106, 106);
+}
+
+.theme-toggler:hover {
+    box-shadow: 0 0 10px rgb(254, 106, 106);
+} 
+
+.BsSun{
+    font-size: 20px;
+}
+
+.header-img-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.header-img-container img{
+    height: 100%;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.side-bar a {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.side-bar { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.side-bar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-right: 2px solid black;
+    width: 250px;
+    box-shadow: 0 0 10px black;
+    left: -2rem;
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+.side-bar-x{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media (max-width: 870px) {
+    .burger-menu{
+        display: block;
+    }
+
+    .header-middleside{
+        display: none;
+    }
+}
+
+@media (max-width: 510px) {
+    .header-leftside img {
+        display: none;
+    }
+
+    .side-bar-container{
+        left: 0;
+    }
+
+    header{
+        padding: 0 1rem;
+    }
+}
